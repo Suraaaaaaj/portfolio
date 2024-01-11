@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+   width: 100%;
+}
+
+ #page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #F2EFE7;
+    padding-left: 80px;
+    padding-right: 80px;
+ } 
+
+ #nav-bar{
+    /* background-color: yellow; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    position: relative;
+    top: 20px;
+}
+
+ #nav-bar>h1{
+    font-size: 2.5rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight:900;
+
+}
+#menu-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+ #nav-bar>button{
+    padding: 7px 20px;
+    border: none;
+    border: 3px solid #FFDA0B;
+    background-color: #FFDA0B;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius:50px;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+#mid-page1{
+    /* background-color: red; */
+    position:relative;
+    top:80px;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mid-page1>#para-1{
+    width: 50%;
+}
+
+#mid-page1>#laptop{
+    width: 50%;
+    /* background-color: aqua */
+}
+
+ #mid-page1>#para-1>#para-1-para>pre{
+    position: relative;
+    top: -10px;
+    font-family: 'Lexend', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#para-1>#view-port>#button-1{
+    padding: 7px 20px;
+    position:relative;
+    top: 25px;
+    left: 80px;
+    border: none;
+    border-radius: 50px;
+    border: 3px solid #000000;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+}
+
+#para-1>#view-port>#button-2{
+    padding: 7px 20px;
+    position:relative;
+    top: 25px;
+    left: 80px;
+    border: none;
+    border-radius: 50px;
+    border: 3px solid #FFDA0B;
+    background-color: #FFDA0B;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif;
+}
+
+#para-1>#para-1-para>pre>#name
+{
+    color:#fed902;
+}
+
+#mid-page1>#laptop>img{
+    /* background-color: green; */
+    width:450px;
+    position: relative;
+    top: 2px;
+    left: 101px;
+    border-radius: 10px;
+} 
+
+#page2{
+    width:100%;
+    background-color: #F2EFE7;
+}
+
+#page2>#full-section{
+    width:100%;
+    background-color: #222222;
+    padding: 18px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 13px;
+}
+
+#page2>#full-section>h3{
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-weight: 200;
+    font-family: 'Lexend', sans-serif;
+}
+
+#full-section>img{
+    width:1.25rem;
+}
+
+#page-2-middle{
+    width: 100%;
+    height: 100vh;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#page-2-middle>h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Lexend', sans-serif; 
+    display: inline;
+    position: relative;
+    left: 30rem;
+    top: 4rem;
+}
+
+#page-2-middle>h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif; 
+    display: inline;
+    position: relative;
+    left: 16rem;
+    top: 6rem;
+}
+
+#card-container{
+    display: grid;
+    /* background-color: green; */
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    bottom: 300px;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+#card-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 100px;
+    gap: 24px;
+    border-radius: 10px; 
+    background-color: rgb(217, 217, 217);
+}
+
+#card-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 100px;
+    gap: 24px;
+    border-radius: 10px; 
+    background-color: rgb(217, 217, 217);
+}
+
+#card-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 100px;
+    gap: 24px;
+    border-radius: 10px; 
+    background-color: rgb(217, 217, 217);
+}
+
+#card-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 100px;
+    gap: 24px;
+    border-radius: 10px; 
+    background-color: rgb(217, 217, 217);
+}
+
+
+#card-container>#card-1>h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif; 
+    /* background-color: aqua; */
+
+}
+
+#card-container>#card-1>i{
+    font-size: 2.5rem;
+}
+
+#card-container>#card-2>h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif; 
+
+}
+
+#card-container>#card-2>i{
+    font-size: 2.5rem;
+}
+
+#card-container>#card-3>h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif; 
+
+}
+
+#card-container>#card-3>i{
+    font-size: 2.5rem;
+}
+
+#card-container>#card-4>h3{
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: 'Lexend', sans-serif;
+}
+
+#card-container>#card-4>i{
+    font-size: 2.5rem;
+    font-weight:bolder;
+}
+
+#footer{
+    position: relative;
+    bottom: 0px;
+    padding: 0px 19%;
+    width:100%;
+    height:200px;
+    background-color: #000000;
+    color:#F2EFE7;
+    display: flex;
+    align-items: center;
+}
+
+#footer-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+    column-gap: 25px;
+    position: relative;
+    left: 200px;
+}
+
+
+#footer>h1{
+    font-family: 'Lexend', sans-serif;
+    font-weight: 900;
+    font-size: 7.25rem;
+}
+
+#footer-google{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#footer-insta{
+    display: flex;
+    gap:20px;
+}
+
+#footer-linked{
+    display: flex;
+    gap:20px;
+}
+
+#footer-container>#footer-google>p{
+    font-size: 1.3rem;
+    font-family: 'Lexend', sans-serif;
+}
+#footer-container>#footer-google>i{
+    font-size: 2rem;
+}
+
+#footer-container>#footer-insta>p{
+    font-size: 1.3rem;
+    font-family: 'Lexend', sans-serif;
+}
+
+#footer-container>#footer-insta>i{
+    font-size:2rem;
+}
+
+#footer-container>#footer-linked>p{
+    font-size: 1.3rem;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+#footer-container>#footer-linked>i{
+    font-size:2rem;
+}
